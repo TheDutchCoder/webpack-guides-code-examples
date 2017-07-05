@@ -1,0 +1,20 @@
+{
+  "name": "webpack-guides-code-examples",
+  "version": "1.0.0",
+  "description": "This repo contains a collection of examples that are used in the [`Webpack Guides`](https://webpack.js.org/guides/).",
+  "main": "index.js",
+  "scripts": {
+    "build": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDutchCoder/webpack-guides-code-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDutchCoder/webpack-guides-code-examples/issues"
+  },
+  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme"
+}
