@@ -6,5 +6,5 @@ language: node_js
 node_js:
   - "6"
 script:
-  - bash ./scripts/deploy.sh
+  - bash ./scripts/build.sh
 sudo: required
