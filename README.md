@@ -11,7 +11,7 @@ git clone git@github.com:TheDutchCoder/webpack-guides-code-examples.git
 cd webpack-guides-code-examples
 ```
 
-Then whenever you want to start a specific guide, navigate to the corresponding directory and run an `npm instal`. For example if you wanted to follow along with the [`Asset Management`](https://webpack.js.org/guides/asset-management/) guide, you would do:
+Then whenever you want to start a specific guide, navigate to the corresponding directory and run an `npm install`. For example if you wanted to follow along with the [`Asset Management`](https://webpack.js.org/guides/asset-management/) guide, you would do:
 
 ``` bash
 cd examples
