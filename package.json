@@ -4,7 +4,8 @@
   "description": "This repo contains a collection of examples that are used in the [`Webpack Guides`](https://webpack.js.org/guides/).",
   "main": "index.js",
   "scripts": {
-    "build": "true"
+    "build": "npm run lint",
+    "lint": "eslint . --ext .js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/TheDutchCoder/webpack-guides-code-examples/issues"
   },
-  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme"
+  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1"
+  }
 }
