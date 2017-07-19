@@ -16,9 +16,9 @@
       var print = module.default;
 
       print();
-    })
+    });
 
     return element;
-  };
+  }
 
   document.body.appendChild(component());
