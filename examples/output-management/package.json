@@ -1,15 +1,28 @@
 {
-  "name": "asset-managament",
-  "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
+  "name": "output-management",
+  "version": "0.1.0",
+  "description": "Code examples for the output management guide.",
+  "main": "n/a",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDutchCoder/webpack-guides-code-examples.git"
+  },
+  "keywords": [
+    "webpack",
+    "output",
+    "management",
+    "dist"
+  ],
+  "author": "Reinier Kaper",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDutchCoder/webpack-guides-code-examples/issues"
+  },
+  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme",
   "devDependencies": {
     "css-loader": "^0.28.4",
     "csv-loader": "^2.1.1",
@@ -17,5 +30,8 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
