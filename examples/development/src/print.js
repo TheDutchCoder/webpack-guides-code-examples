@@ -1,3 +1,3 @@
 export default function printMe() {
-  cosnole.log('I get called from print.js!');
+  cosnole.log('I get called from print.js!'); // eslint-disable-line no-undef
 }
