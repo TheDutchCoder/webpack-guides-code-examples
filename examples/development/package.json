@@ -1,25 +1,23 @@
 {
-  "name": "asset-management",
+  "name": "development",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "watch": "webpack --watch --progress",
-    "server": "webpack-dev-server --open"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.4",
     "csv-loader": "^2.1.1",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.1",
     "xml-loader": "^1.2.1"
   }
 }

@@ -1,5 +1,6 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
+const htmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -7,13 +8,10 @@ module.exports = {
     print: './src/print.js'
   },
   devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-    port: 9000
-  },
   plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Development'
+    new CleanWebpackPlugin(['dist']),
+    new htmlWebpackPlugin({
+      title: 'Output Management'
     })
   ],
   output: {
