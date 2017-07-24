@@ -1,0 +1,23 @@
+{
+  "name": "webpack-guides-test",
+  "version": "0.1.0",
+  "description": "Boilerplate and demos for webpack.js.org/guides.",
+  "main": "n/a",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "guides",
+    "demo",
+    "boilerplate",
+    "tutorial"
+  ],
+  "author": "Greg Venech",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.0.0"
+  }
+}

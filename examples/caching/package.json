@@ -1,0 +1,35 @@
+{
+  "name": "caching",
+  "version": "0.1.0",
+  "description": "Code examples for the caching guide.",
+  "main": "n/a",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDutchCoder/webpack-guides-code-examples.git"
+  },
+  "keywords": [
+    "webpack",
+    "caching",
+    "long-term-caching",
+    "hash",
+    "cache"
+  ],
+  "author": "Greg Venech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDutchCoder/webpack-guides-code-examples/issues"
+  },
+  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
