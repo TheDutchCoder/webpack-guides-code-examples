@@ -1,0 +1,16 @@
+{
+  "name": "hot-module-replacement",
+  "version": "0.1.0",
+  "description": "A simple demonstration of webpack's Hot Module Replacement feature",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "Greg Venech",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
