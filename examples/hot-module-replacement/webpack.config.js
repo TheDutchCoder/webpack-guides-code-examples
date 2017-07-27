@@ -27,7 +27,7 @@ const webpack = require('webpack');
       new webpack.HotModuleReplacementPlugin()
     ],
     output: {
-      filename: '[name].build.js',
+      filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist')
     }
   };
