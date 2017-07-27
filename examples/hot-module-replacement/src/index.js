@@ -8,7 +8,7 @@ if (module.hot) {
     document.body.removeChild(element);
     element = component(); // Re-render the "component" to update the click handler
     document.body.appendChild(element);
-  })
+  });
 }
 
 let element = component();
