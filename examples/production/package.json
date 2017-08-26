@@ -1,0 +1,35 @@
+{
+  "name": "production",
+  "version": "0.1.0",
+  "description": "Code examples for the production guide.",
+  "main": "n/a",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDutchCoder/webpack-guides-code-examples.git"
+  },
+  "keywords": [
+    "webpack",
+    "production",
+    "build",
+    "compilation"
+  ],
+  "author": "Greg Venech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDutchCoder/webpack-guides-code-examples/issues"
+  },
+  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.30.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
