@@ -1,0 +1,32 @@
+{
+  "name": "tree-shaking",
+  "version": "0.1.0",
+  "description": "Code examples for the tree-shaking guide.",
+  "main": "n/a",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDutchCoder/webpack-guides-code-examples.git"
+  },
+  "keywords": [
+    "tree",
+    "shaking",
+    "webpack",
+    "dead",
+    "code",
+    "removal"
+  ],
+  "author": "Greg Venech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDutchCoder/webpack-guides-code-examples/issues"
+  },
+  "homepage": "https://github.com/TheDutchCoder/webpack-guides-code-examples#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.5"
+  }
+}
